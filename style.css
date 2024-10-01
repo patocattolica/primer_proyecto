@@ -1,0 +1,195 @@
+body,html{
+    margin:0;
+    font-family: Montserrat;
+    height: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Header 1 */
+.header-1{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    display: flex;
+    /* Recordar que es necesario que sea flex para usar estas 2      */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Header 2 */
+.header-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+#logo-1{
+    padding-left: 10px;
+}
+
+#sol{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#navegacion-1 span {
+    margin: 0px 5px; /* Espacio después de cada separador | */
+}   
+
+#navegacion-1{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+#navegacion-1 :hover{
+    font-weight: bold;
+    color: blue;
+}
+
+/* Header 3 */
+.header-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+}
+
+#seleccionado{
+    font-weight: bolder;
+}
+
+#navegacion-2{
+    font-size: 20px;
+    padding-left: 33%;
+}
+
+#navegacion-2 :hover {
+    font-weight: bold;
+    color: blue;
+}
+
+#buscar{
+    padding-left: 200px;
+}
+
+#buscador{
+    height: 30px;
+    border: 3px solid rgb(221, 221, 221);
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#carrito{
+    padding-left: 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.backgroud{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#wallpaper{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100%;
+    width: 80%;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+#navegacion-3{
+    padding-left: 10px;
+}
+
+#navegacion-3 :hover {
+    font-weight: bold;
+    color: blue;
+}
+
+#iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.icono{
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+/* Exclusivo de Hombre */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding: 20px 10px 0px 10px;
+    margin: 0;
+    max-height: 520px;
+}
+
+.product{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-height: 75%;
+}
+
+.product img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
